@@ -4,7 +4,7 @@
 library stomp;
 
 import "dart:async";
-import "dart:convert" show JSON;
+import "dart:convert" show json;
 import "dart:math" show max;
 import "dart:collection" show HashMap, LinkedHashMap, LinkedHashSet;
 import "package:quiver/pattern.dart" as qp show matchesFull, Glob;

@@ -191,7 +191,7 @@ class _StompClient implements StompClient {
     _checkSend();
     writeDataFrame(_connector, SEND,
       _headerOfSend(headers, destination, "application/json"),
-      JSON.encode(message));
+      json.encode(message));
   }
 
   @override
